@@ -1,0 +1,192 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+/*Removes bullet points from list*/
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem; /* Adjust spacing between menu items */
+    display: flex;
+   
+}
+nav ul li {
+    display: inline;
+    
+   
+}
+a{
+    text-decoration: none;
+    color: indianred;
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0;
+    font-weight: bold;
+    font-size: 2em; /* Adjust size as needed */
+    text-align: center; /* Center the header text */
+    margin-top: 50px; /* Add some space at the top */
+}
+
+body{
+    min-height: 100vh;
+    padding:4 rem;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 100px;  /* Set the desired width */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+            object-fit: cover;  /* Ensure the image covers the circle properly */
+    
+}
+.MainImage
+{
+    display: flex;
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+    padding: 0;
+    margin:0;
+    
+    
+}
+.about-us {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-us .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2{
+    
+    font-weight: bold;
+    color: indianred;
+    font-size: 2em; /* Adjust size as needed */
+    text-align: center; /* Center the header text */
+    margin-top: 50px; /* Add some space at the top */
+}
+.celeblogo
+{
+        position:absolute;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: calc(25% - 40px); /* Adjust width for margin and padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.product-item h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.product-item p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0 0 15px;
+}
+
+.product-item button {
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.product-item button:hover {
+    background-color: #4cae4c;
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+footer {
+    background-color: #333;
+    color:#B0C441;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Contact Us Using whatsapp api */
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+.contact-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.whatsapp-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #25D366;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.whatsapp-button:hover {
+    background-color: #1DA851;
+}
